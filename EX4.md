@@ -15,30 +15,31 @@ To create a procedure using PL/SQL.
 
 ## Program To Create Table:
 ```
-create table EMPLOYEE3 (empid NUMBER, empname VARCHAR(20), dept VARCHAR(10),salary NUMBER);
+create table employee2 (empid NUMBER, empname VARCHAR(20), dept VARCHAR(10),salary NUMBER);
 ```
 ## Program To Create Procedure:
 ```
 create or replace procedure insert_employee_data is
 begin
-insert into EMPLOYEE3 values(1,'vjis','IT',100000000);
-insert into EMPLOYEE3 values(2,'prabha','IoT',20000000);
-insert into EMPLOYEE3 values(3,'dhuru','IT',300000000);
-insert into EMPLOYEE3 values(4,'yuva','IoT',40000000);
+insert into employee2 values(1,'priya','IT',10000);
+insert into employee2 values(2,'vijis','aids',25000);
+insert into  employee2 values(3,'thilaga','iot',50000);
+insert into employee2 values(4,'prabha','cse',70000);
 COMMIT;
 END;
 /
 ```
 ## Program To Call The Procedure:
 ```
-execute insert_employee_data;
+execute inserting_data;
 ```
 ## Program To Display The Table:
 ```
-select * from EMPLOYEE3;
+select * from employee2;
 ```
 ## Output:
-![image](https://github.com/Vijisdurai/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/118343184/20f340fb-ad59-4ca4-894e-1958cce2eb3c)
+![image](https://github.com/vidhyasrikachapalayam/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119477817/2680f7ad-6c65-4586-ab31-c4be03a449a0)
+
 
 ## Result:
   Hence procedure has been created using PL/SQL.
